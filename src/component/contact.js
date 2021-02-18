@@ -32,9 +32,10 @@ function contact() {
     <div>
       <section id="con" className="contact">
         <div className="contact-items">
-          <h1>Contact us</h1>
+          <h1 data-aos="fade-down">Contact us</h1>
           <form onSubmit={sendEmail}>
             <input
+              data-aos="fade-up"
               type="text"
               placeholder="Your Name"
               className="name-input"
@@ -42,6 +43,7 @@ function contact() {
               required
             />
             <input
+              data-aos="fade-up"
               type="email"
               placeholder="Your Email"
               className="email-input"
@@ -50,6 +52,7 @@ function contact() {
             />
 
             <textarea
+              data-aos="fade-up"
               placeholder="Message"
               name="message"
               id=""
@@ -57,7 +60,7 @@ function contact() {
               rows="5"
               className="message-input"
             ></textarea>
-            <button className="btn-submit" type="submit">
+            <button data-aos="fade-down" className="btn-submit" type="submit">
               Submit <BiMessageRoundedDetail className="pl" />
             </button>
           </form>

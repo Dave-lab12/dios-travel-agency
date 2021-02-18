@@ -12,10 +12,12 @@ function destination() {
       <section className="Countries">
         <h1 className="des-header">Destination</h1>
         <div className="container">
-          <img src={poland} alt="poland" />
+          <img data-aos="fade-right" src={poland} alt="poland" />
           <div className="text-desc">
-            <h1 className="country-name">Poland</h1>
-            <ul>
+            <h1 data-aos="fade-down" className="country-name">
+              Poland
+            </h1>
+            <ul data-aos="fade-left">
               <li>
                 Study in poland. Electronic Information Science and Technology
               </li>
@@ -41,10 +43,12 @@ function destination() {
       </section>
       <section className="Countries">
         <div className="container">
-          <img src={canada} alt="poland" />
+          <img data-aos="fade-right" src={canada} alt="poland" />
           <div className="text-desc">
-            <h1 className="country-name">Canada</h1>
-            <ul>
+            <h1 data-aos="fade-down" className="country-name">
+              Canada
+            </h1>
+            <ul data-aos="fade-left">
               <p>Universities</p>
               <li>Alberta University </li>
               <li>british University </li>
@@ -62,14 +66,15 @@ function destination() {
       </section>
       <section className="Countries">
         <div className="container">
-          <img src={turkey} alt="poland" />
+          <img data-aos="fade-right" src={turkey} alt="poland" />
           <div className="text-desc">
-            <h1>turkey</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi
-              quasi repudiandae veniam, natus aliquid molestiae eligendi iste
-              ipsum sint nesciunt repellendus iusto excepturi laudantium? Quo
-              cumque eos voluptates dignissimos ducimus?
+            <h1 data-aos="fade-down" className="country-name">
+              Turkey
+            </h1>
+            <p data-aos="fade-left">
+              Tourism, travel, leisure and holiday guide to Turkey wonderfully
+              reflecting the heavenly and serene beauties, and the adventures
+              and places to explore
             </p>
             <a href="https://t.me/Hena1989" target="_blank" rel="noreferrer">
               <button className="apply-btn">
@@ -81,10 +86,12 @@ function destination() {
       </section>
       <section className="Countries">
         <div className="container">
-          <img src={china} alt="poland" />
+          <img data-aos="fade-right" src={china} alt="poland" />
           <div className="text-desc">
-            <h1 className="country-name">china</h1>
-            <ul>
+            <h1 data-aos="fade-down" className="country-name">
+              China
+            </h1>
+            <ul data-aos="fade-left">
               <p>Universities</p>
               <li>Peking University </li>
               <li>Zhejiang University</li>
@@ -93,7 +100,7 @@ function destination() {
               <li>Jiangxi University</li>
               <li>Henan University</li>
             </ul>
-            <ul>
+            <ul data-aos="fade-left">
               <p>Majors for Bachelors, Masters and PhD</p>
               <li>English </li>
               <li>Computer science engineering </li>
@@ -101,35 +108,9 @@ function destination() {
               <li>Mechanical engineering </li>
               <li>Geology </li>
               <li>Public health</li>
-              {/* <li>International relation</li> */}
-              {/* <li> Electrical engineering </li>
-              <li>Finance </li>
-              <li>Management</li>
-              <li> Pharmacy's </li>
-              <li> Accounting </li>
-              <li>Law</li>
-              <li>International trade technology </li> */}
+
               <p>and many more</p>
             </ul>
-            <a href="https://t.me/Hena1989" target="_blank" rel="noreferrer">
-              <button className="apply-btn">
-                Apply <CgAirplane className="pl" />
-              </button>
-            </a>
-          </div>
-        </div>
-      </section>
-      <section className="Countries">
-        <div className="container">
-          <img src={austria} alt="poland" />
-          <div className="text-desc">
-            <h1>austria</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi
-              quasi repudiandae veniam, natus aliquid molestiae eligendi iste
-              ipsum sint nesciunt repellendus iusto excepturi laudantium? Quo
-              cumque eos voluptates dignissimos ducimus?
-            </p>
             <a href="https://t.me/Hena1989" target="_blank" rel="noreferrer">
               <button className="apply-btn">
                 Apply <CgAirplane className="pl" />

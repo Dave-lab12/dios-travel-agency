@@ -34,6 +34,7 @@ function home() {
           <img src={globe} alt="World" />
         </div>
       </main>
+
       <img src={wave} alt="wave" className="wave" />
     </section>
   );

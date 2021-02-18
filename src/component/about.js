@@ -9,7 +9,7 @@ function about() {
         We are a dedicated team that guaranties your visa success in your dream
         country
       </p>
-      <div className="box">
+      <div className="box" data-aos="fade-right">
         <div className="text-container">
           <p className="number">5</p>
           <p>Destination</p>
@@ -24,7 +24,7 @@ function about() {
         </div>
       </div>
       <article>
-        <ul>
+        <ol data-aos="fade-right" class="timeline">
           <li>Fully Funded Scholarships With Monthly Stipends</li>
           <li>help clear over stay</li>
           <li>Work visa (1 year)</li>
@@ -33,11 +33,9 @@ function about() {
           <li>Family Q visa</li>
           <li>Diploma Authentication</li>
           <li>Driving license </li>
-          <li>IELTS</li>
-          <li>TELF</li>
-        </ul>
+        </ol>
 
-        <img src={plane} alt="plane" className="plane" />
+        <img data-aos="fade-left" src={plane} alt="plane" className="plane" />
       </article>
     </section>
   );
