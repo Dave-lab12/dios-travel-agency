@@ -1,5 +1,5 @@
 import React from "react";
-import austria from "../img/austria.svg";
+
 import canada from "../img/canada.svg";
 import china from "../img/china.svg";
 import turkey from "../img/turkey.svg";
